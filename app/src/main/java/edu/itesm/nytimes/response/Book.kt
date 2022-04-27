@@ -1,18 +1,16 @@
 package edu.itesm.nytimes
 
-
-/*
 data class Results(
- //Completa aquí
+ val status: String,
+ val results: Books
 )
+
 
 data class Books(
- //Completa aquí
+ val books: List<Book>
 )
 
- */
 data class Book(val rank: Int,
                 val title: String,
                 val description: String,
                 val book_image: String)
-

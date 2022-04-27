@@ -1,4 +1,4 @@
-package edu.itesm.nytimes
+package edu.itesm.nytimes.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import edu.itesm.nytimes.Book
+import edu.itesm.nytimes.R
 
 class BooksAdapter(private val data: List<Book>?) : RecyclerView.Adapter<BooksAdapter.ViewHolder>()  {
 
